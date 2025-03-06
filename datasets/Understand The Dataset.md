@@ -6,8 +6,8 @@
 
 ## The Dataset is present in Azure Storage Account which contains 10 delimited files as follows:
   Fact Tables:
-  	•	fact.averagecosts.dlm.gz
-  	•	fact.transactions.dlm.gz
+  	•	fact.averagecosts.dlm.gz 
+    •	fact.transactions.dlm.gz
   
   Dimension (Hier) Tables:
   	•	hier.clnd.dlm.gz (Calendar)
