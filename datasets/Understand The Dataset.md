@@ -5,28 +5,16 @@
 
 
 #### The Dataset is present in Azure Storage Account which contains 10 delimited files as follows:
-  Fact Tables:
-  	•	fact.averagecosts.dlm.gz 
-    •	fact.transactions.dlm.gz
-  
-  Dimension (Hier) Tables:
-  	•	hier.clnd.dlm.gz (Calendar)
-  	•	hier.hldy.dlm.gz (Holiday)
-  	•	hier.invloc.dlm.gz (Inventory Location)
-  	•	hier.invstatus.dlm.gz (Inventory Status)
-  	•	hier.possite.dlm.gz (POS Site)
-  	•	hier.pricestate.dlm.gz (Price State)
-  	•	hier.prod.dlm.gz (Product)
-  	•	hier.rttloc.dlm.gz (Retail Location)
-
-   
 1. fact.averagecosts.dlm
-2. fact.transactions.dlm.gz
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
-
-1. **Bronze Layer**: Stores raw data as-is from the source systems(Azure Storage). Data is ingested from DML Files into AzureSQL Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+2. fact.transactions.dlm
+3. hier.clnd.dlm (Calendar)
+4. hier.hldy.dlm (Holiday)
+5. hier.invloc.dlm (Inventory Location)
+6. hier.invstatus.dlm (Inventory Status)
+7. hier.possite.dlm (POS Site)
+8. hier.pricestate.dlm (Price State)
+9. hier.prod.dlm (Product)
+10. hier.rttloc.dlm (Retail Location)
 
 
 
