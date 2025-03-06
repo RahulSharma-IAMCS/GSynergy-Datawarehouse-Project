@@ -13,6 +13,7 @@ WARNING:
     and ensure you have proper backups before running this script.
 */
 
+
 {
     "name": "CopyPipeline",
     "properties": {
@@ -49,6 +50,7 @@ WARNING:
                     ],
                     "storeSettings": {
                         "type": "AzureBlobStorageReadSettings",
+                        "recursive": true,
                         "enablePartitionDiscovery": false
                     },
                     "formatSettings": {
@@ -133,7 +135,7 @@ WARNING:
                                     "type": "DatasetReference",
                                     "parameters": {
                                         "TableName": {
-                                            "value": "@concat(\n    split(item().name, '.')[1], \n    '_', \n    if(equals(split(item().name, '.')[0], 'heir'), 'heir', 'dim')\n)",
+                                            "value": "@concat(replace(replace(replace(item().name, 'fact.', ''), 'hier.', ''), '.dlm', ''))",
                                             "type": "Expression"
                                         }
                                     }
@@ -191,6 +193,8 @@ WARNING:
                 }
             }
         ],
-        "annotations": []
-    }
+        "annotations": [],
+        "lastPublishTime": "2025-03-06T08:04:10Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
 }
