@@ -20,8 +20,8 @@
   	•	hier.rttloc.dlm.gz (Retail Location)
 
    
-1. **Bronze Layer**: Stores raw data as-is from the source systems(Azure Storage). Data is ingested from DML Files into AzureSQL Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+1. fact.averagecosts.dlm
+2. fact.transactions.dlm.gz
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems(Azure Storage). Data is ingested from DML Files into AzureSQL Database.
