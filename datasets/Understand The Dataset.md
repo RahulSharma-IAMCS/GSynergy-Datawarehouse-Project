@@ -5,8 +5,8 @@
 
 
 ### The Dataset is present in Azure Storage Account which contains 10 delimited files as follows:
-1. fact.averagecosts.dlm
-2. fact.transactions.dlm
+1. fact.averagecosts.dlm (Average Costs)
+2. fact.transactions.dlm (Transactions)
 3. hier.clnd.dlm (Calendar)
 4. hier.hldy.dlm (Holiday)
 5. hier.invloc.dlm (Inventory Location)
