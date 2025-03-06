@@ -4,7 +4,7 @@
   This data can be used for sales analysis, inventory management, cost analysis, and more.
 
 
-#### The Dataset is present in Azure Storage Account which contains 10 delimited files as follows:
+### The Dataset is present in Azure Storage Account which contains 10 delimited files as follows:
 1. fact.averagecosts.dlm
 2. fact.transactions.dlm
 3. hier.clnd.dlm (Calendar)
@@ -18,7 +18,7 @@
 
 
 
-#### This data can be used for:
+### This data can be used for:
   Sales Analysis:
   Analyze sales trends by product, store, region, or time period.
   Identify top-selling products or regions.
